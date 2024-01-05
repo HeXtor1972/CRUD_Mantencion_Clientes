@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <main class="container">
+        <section class="crud">
+            <h1 class="crud__title">Mantención de Clientes</h1> 
+            <form id="formRegister" class="crud__form">
+                <input type="text" placeholder ="Nombre" id="nameinput" class="form__input">
+                <input type="email" placeholder ="Email" id="emailinput" class="form__input">
+                <input type="number" placeholder ="Celular" id="celularinput" class="form__input">
+                <button type="submit" id="submitButton" class="button button--primary">Ingresar</button>
+            </form>
+            <table class="crud__table">
+                <thead>
+                    <tr>
+                        <th class="table__header">Nombre</th>
+                        <th class="table__header">Email</th>
+                        <th class="table__header">Celular</th>
+                        <th class="table__header">Acción</th>
+                    </tr>
+                </thead>
+                <tbody id="tablebody" class="table__body">
+
+                </tbody>
+
+            </table>    
+
+        </section>
+
+
+    </main>
+    
+
+    <script src="Principal.js"></script>
+</body>
+</html>
