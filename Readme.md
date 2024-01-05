@@ -2,12 +2,12 @@ PROYECTO MANTENCION DE CLIENTES
 -----------------------------------
 
 Tabla de contenidos del Readme
-   Descripción
-   Editor y Mantenedor de código
-   Tecnologías Utilizadas
-   Proceso de Desarrollo del aplicativo
-   Ejemplos de uso del Aplicativo
-   Ejecución del Mantenedor
+- Descripción
+- Editor y Mantenedor de código
+- Tecnologías Utilizadas
+- Proceso de Desarrollo del aplicativo
+- Ejemplos de uso del Aplicativo
+- Ejecución del Mantenedor
 
 
 1. Descripción
