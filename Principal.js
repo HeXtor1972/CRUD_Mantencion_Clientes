@@ -68,7 +68,7 @@ function renderTable() {
     emailcell.textContent = item.email;
     celularcell.textContent = item.celular;
     editbutton.textContent = "Modificar";
-    deletebutton.textContent = "Borrar";
+    deletebutton.textContent = "Eliminar";
 
     editbutton.classList.add("button", "button--secondary");
     deletebutton.classList.add("button", "button--tertiary");
